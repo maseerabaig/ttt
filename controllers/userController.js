@@ -2,7 +2,7 @@ const User = require("../models/User");
 const fs = require("fs");
 const path = require("path");
 
-// Register User
+//Register User
 const registerUser = async (req, res) => {
     try {
         const { userId, username, email } = req.body;
